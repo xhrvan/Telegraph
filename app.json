@@ -6,10 +6,10 @@
         "Telegraph",
         "Uploader",
         "Telegram Bot",
-        "war Bots"
+        "Tg x Bots"
     ],
-    "repository": "https://github.com/War-Legend/Telegraph",
-    "success_url": "https://t.me/camila_support",
+    "repository": "https://github.com/shrvan42/Telegraph",
+    "success_url": "https://t.me/Tg_x_Coders",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
