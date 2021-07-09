@@ -36,7 +36,7 @@ Hit help button to find out more about how to use me</b>""",
 @Tgbot.on_message(filters.command("help"))
 async def help(client, message):
     if message.chat.type == 'private':   
-        await Webot.send_message(
+        await Tgbot.send_message(
                chat_id=message.chat.id,
                text="""<b>Telegraph Bot Help!
 
@@ -57,7 +57,7 @@ Just send a photo or video less than 5mb file size, I'll upload it to telegraph.
 @Tgbot.on_message(filters.command("about"))
 async def about(client, message):
     if message.chat.type == 'private':   
-        await Webot.send_message(
+        await Tgbot.send_message(
                chat_id=message.chat.id,
                text="""<b>About Telegraph Bot!</b>
 
