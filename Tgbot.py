@@ -15,7 +15,7 @@ Tgbot = Client(
 @Tgbot.on_message(filters.command("start"))
 async def start(client, message):
    if message.chat.type == 'private':
-       await Webot.send_message(
+       await Tgbot.send_message(
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm Telegraph Bot
 
