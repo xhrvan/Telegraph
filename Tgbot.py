@@ -19,7 +19,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hey There, I'm Telegraph Bot
 
-I can upload photos or videos to telegraph. Made by @Tg_x_Coders  
+I can upload photos or videos to telegraph. Made by @TgxBotz_Chat  
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
@@ -27,7 +27,7 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/tg_coders_updates")
+                                            "Channel", url="https://t.me/TgxBotz_Update")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -42,7 +42,7 @@ async def help(client, message):
 
 Just send a photo or video less than 5mb file size, I'll upload it to telegraph.
 
-~ @Tg_x_Coders</b>""",
+~ @TgxBotz_Chat</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -61,11 +61,11 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b>About Telegraph Bot!</b>
 
-<b>♞ Support:</b> <a href="https://t.me/Tg_x_Coders">Tg_x_Coders </a>
+<b>♞ Support:</b> <a href="https://t.me/TgxBotz_Chat">TgxBotz_Chat </a>
 
-<b>♞ Channel:</b> <a href="https://t.me/Tg_coders_updates">here </a>
+<b>♞ Channel:</b> <a href="https://t.me/TgxBotz_Update">here </a>
 
-<b>~ @Tg_x_Coders</b>""",
+<b>~ @TgxBotz_Chat</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -141,7 +141,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @Tg_Coders_Updates
+Join @TgxBotz_Update
 """
 )
 
