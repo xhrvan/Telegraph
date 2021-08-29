@@ -9,7 +9,7 @@ Tgbot = Client(
    "Telegraph Uploader",
    api_id=Config.APP_ID,
    api_hash=Config.API_HASH,
-   bot_token=Config.TG_BOT_TOKEN
+   bot_token=Config.TG_BOT_TOKEN,
 )
 
 @Tgbot.on_message(filters.command("start"))
