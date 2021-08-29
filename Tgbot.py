@@ -7,9 +7,9 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 Tgbot = Client(
    "Telegraph Uploader",
-   api_id=Config.3849613,
-   api_hash=Config.d16a7d2b4632b7f4cfb94e0b35284be7,
-   bot_token=Config.1825073907:AAEeGFns0DZgba83-rqQq_U6qOk7b7oMpRw,
+   api_id=Config.APP_ID,
+   api_hash=Config.API_HASH,
+   bot_token=Config.TG_BOT_TOKEN
 )
 
 @Tgbot.on_message(filters.command("start"))
